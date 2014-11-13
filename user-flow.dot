@@ -1,0 +1,33 @@
+digraph userFlow {
+  # Labels
+  landing [label = "Landing Page"]
+  pick_city [label = "Pick a City"]
+  login [label = "Login"]
+  view_questions [label = "Questions Feed"]
+  search_questions [label="Search Questions"]
+  post_question [label="Post a Question"]
+  view_question [label="View a Question"]
+  post_answer [label="Post an Answer"]
+  
+  # Landing
+  landing -> login
+  landing -> pick_city
+  
+  # Pick City
+  pick_city -> post_question
+  pick_city -> search_questions
+  pick_city -> view_questions
+  
+  # View Questions Feed
+  view_questions -> post_question
+  view_questions -> view_question
+  view_questions -> post_answer
+  
+  # Search Questions
+  search_questions -> view_questions
+  
+  # Post a Question
+  post_question -> view_question
+  
+  
+}
