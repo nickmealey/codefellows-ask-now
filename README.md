@@ -1,6 +1,3 @@
-codefellows-ask-now
-===================
-
 # MVP for Ask Now App
 
 ## Objective
@@ -8,12 +5,14 @@ Anonymously ask simple questions to a lot of people online for current events, o
 
 *Real people. Real answers. Real Fast. Real life.*
 
+```
 Who: Community
 What: Ask and answer questions
 When: Anytime
 Where: Anywhere
 Why: Real-time responses to a question
 How: Ask and answer questions in a web browser on any device.
+```
 
 ## Hypotheses
 Imagine you're at a football game - you want to know how many other people think the Seahawks are going to make a comeback. You ask the question and you're getting responses within a few minutes from people in the same stadium. Every question has to be short and concise. Answers would come in the form of a hybrid multiple choice - you add a short answer, and anyone can agree with you. You can search questions by geolocation or hashtag.
@@ -23,6 +22,7 @@ Imagine you're at a football game - you want to know how many other people think
 ### Survey
 Total survey responses: 35
 
+```
 > 1. If you're going to purchase something, what do you rely on more?
 >  a. Customer reviews **74.29%**
 >  b. Product description **25.71%**
@@ -45,11 +45,13 @@ Total survey responses: 35
 >  c. It depends on how many people were answering my question **28.57%**
 >  d. I'd be interested to hear more **22.86%**
 >  e. Nope. Sounds dumb **11.43%**
-  
+```
+
 ### Google Search
 
 We're asking the question *"when searching Google with a question, how many answers are actually coming from local and real people?"*
 
+```
 *What's the best taco place in Seattle?* : 3/10
 *What's your least favorite thing about Seattle*: **0/10**
 *Why are there loud sirens in downtown Seattle?*: **0/10**
@@ -57,3 +59,4 @@ We're asking the question *"when searching Google with a question, how many answ
 *What have you seen the northern lights tonight?* : **0/10**
 *Why has traffic been so slow lately in Seattle?* : **1/10**
 *What's your favorite spot for a meal at happy hour in Seattle?* : **2/10**
+```
