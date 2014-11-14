@@ -21,31 +21,31 @@ Imagine you're at a football game - you want to know how many other people think
 ## Methods
 
 ### Survey
-Total survey responses: 35
+Total survey responses: 42
 ["Survey Results"](https://www.surveymonkey.com/results/SM-YXJDGDLV/)]
 
 1. If you're going to purchase something, what do you rely on more?
-  >a. Customer reviews **74.29%**  
-  >b. Product description **25.71%**
+  >a. Customer reviews **73.81%**  
+  >b. Product description **26.19%**
 
 2. What information source would you more likely trust on the internet?
-  >a. Opinions from a group of local people **58.82%**
-  >b. Single reliable source **41.18%**
+  >a. Opinions from a group of local people **60.98%**
+  >b. Single reliable source **39.02%**
 
 3. Do you ever feel like it takes too long to find answers to simple questions?
-  >a. Yes **79.41%**
-  >b. No **20.59%**
+  >a. Yes **80.49%**
+  >b. No **19.51%**
 
 4. Do you often have to visit multiple websites to have most of your questions answered?
-  >a. Yes **88.24%**
-  >b. No **11.76%**
+  >a. Yes **85.37%**
+  >b. No **14.63%**
 
 5. If you could anonymously ask any simple question to a lot of people online in your city for current events, opinions, polls, or local insider knowledge, would you ask it?
-  >a. Yes, but it shouldn't take more than 30 seconds to ask **25.72%**
-  >b. Yes, and it should give me a lot of features **11.43%**
-  >c. It depends on how many people were answering my question **28.57%**
-  >d. I'd be interested to hear more **22.86%**
-  >e. Nope. Sounds dumb **11.43%**
+  >a. Yes, but it shouldn't take more than 30 seconds to ask **30.95%**
+  >b. Yes, and it should give me a lot of features **9.25%**
+  >c. It depends on how many people were answering my question **23.81%**
+  >d. I'd be interested to hear more **23.81%**
+  >e. Nope. Sounds dumb **11.90%**
 
 
 ### Google Search
