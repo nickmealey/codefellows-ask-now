@@ -1,3 +1,125 @@
 // Place all the styles related to the feed controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.feed {
+$color_azure_approx: #3b5998;
+$black_40: rgba(0, 0, 0, 0.4);
+$white: #ffffff;
+$color_east_bay_approx: #374c77;
+$color_san_marino_approx: #4569b2;
+$color_gallery_approx: #eee;
+$color_masala_approx: #3e3c3d;
+$color_thunder_approx: #2d2c2d;
+$color_log_cabin_approx: #222222;
+$color_tundora_approx: #444444;
+
+//fonts
+
+
+html {
+	overflow-y: scroll;
+}
+body {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	font-family: $font_1;
+	font-size: 18px;
+}
+header {
+	background-color: $color_azure_approx;
+	padding: 10px;
+	text-decoration: none;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: 0 3px 7px 0 $black_40;
+}
+#content {
+	background-color: #FFFFFF;
+	padding: 52px 10px 10px;
+	position: relative;
+	width: auto;
+	height: 100%;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: -10px 0 9px 0 $black_40;
+}
+#hamburger {
+	border: 1px solid #374C77;
+	//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+	border-radius: 3px 3px 3px 3px;
+	cursor: pointer;
+	display: block;
+	height: 24px;
+	padding: 3px 4px;
+	position: relative;
+	width: 25px;
+	background: $color_san_marino_approx;
+	background: linear-gradient(to bottom, $color_san_marino_approx 0, $color_san_marino_approx 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color_san_marino_approx', endColorstr='$color_san_marino_approx', GradientType=0);
+	div {
+		background-color: $white;
+		border: 1px solid $color_gallery_approx;
+		//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+		border-radius: 2px 2px 2px 2px;
+		height: 2px;
+		margin-top: 3px;
+		width: 90%;
+    clear:both;
+//    display:inline;
+	}
+}
+nav {
+	opacity: 0;
+	left: 0;
+	top: 0;
+	position: fixed;
+	z-index: 0;
+	width: 70%;
+	height: 100%;
+	//Instead of the line below you could use @includebox-sizing($bs)
+	box-sizing: border-box;
+	overflow-x: hidden;
+	overflow-y: auto;
+	background: $color_masala_approx;
+	background: linear-gradient(to bottom, $color_masala_approx 0, $color_thunder_approx 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='$color_masala_approx', endColorstr='$color_thunder_approx', GradientType=0);
+	ul {
+		list-style: none;
+		margin: 0;
+		width: 100%;
+		padding: 0;
+	}
+	li {
+		position: relative;
+		font-size: 1em;
+		font-weight: bold;
+		border-bottom: 1px solid $color_log_cabin_approx;
+		border-top: 1px solid $color_tundora_approx;
+		padding: 15px;
+		a {
+			color: $white;
+			text-decoration: none;
+		}
+	}
+}
+#contentLayer {
+	display: none;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 30%;
+	z-index: 5;
+}
+
+.city {
+  text-align: center;
+  float:left;
+  display: inline;
+  
+}
+}

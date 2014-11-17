@@ -1,3 +1,82 @@
 // Place all the styles related to the landing controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.landing {
+  background-color:$color_persimmon_approx;
+
+h4 {
+	font-size: 14.7px;
+	font-family: $font_1;
+	color: $color_romantic_approx;
+	line-height: 1.2;
+	text-align: center;
+	z-index: 8;
+}
+.landingfooter {
+	font-size: 14.7px;
+	font-family: $font_1;
+	color: $color_romantic_approx;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+	z-index: 7;
+}
+h2 {
+	font-size: 20.214px;
+	font-family: $font_1;
+	color: $color_romantic_approx;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+	z-index: 6;
+  font-weight: 100;
+}
+.landingbutton {
+	//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+	border-radius: 4px;
+	background-color: $color_romantic_approx;
+	left: 42px;
+	top: 262px;
+	width: 234px;
+	height: 47px;
+	z-index: 5;
+	font-size: 20.214px;
+	font-family: $font_1;
+	color: $color_persimmon_approx;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+	z-index: 9;
+  margin: 0 auto;
+  display:block;
+  
+}
+  
+.landingslogan {
+	font-size: 20.214px;
+	font-family: $font_1;
+	color: $color_romantic_approx;
+	line-height: 1.336;
+	text-align: center;
+	z-index: 3;
+  font-weight: 500;
+}
+
+  h3 {
+	font-size: 15px;
+	font-family: $font_1;
+	color: $color_thunderbird_approx;
+	line-height: 1.2;
+	text-align: center;
+    font-weight: 100;
+}
+h5 {
+  display:inline;
+  margin:0.5em;
+  color:$color_thunderbird_approx;
+  font-weight: 100;
+}
+  
+}
+
